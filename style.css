@@ -1,0 +1,78 @@
+h1 {
+    color:black;
+}
+body. html {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background: url(./img/OC8i.gif); /*no-repeat center center fixed;*/
+    background-size: cover; 
+}
+img {
+    margin-top: 10px;
+    width: 200px;
+    height: 220px;
+    margin-left: 10px;
+}
+header {
+    margin-left: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p {
+   color: black;
+   font-size: large;
+   font-weight:lighter;
+}
+header > img {
+    width: 14em;
+    height: 15em;
+    border-radius: 100%;
+    border: 2px solid #b4c2de;
+}
+header > h1 {
+    display: inline-block;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 2em;
+    background-color:blanchedalmond;
+    padding: 0.2em 0.6em;
+}
+ul {
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0 auto;
+    padding: 2em;
+}
+ul > li {
+    background-color: #b4c2de;
+    border-radius: 1em;
+    padding: 0.5;
+    margin: 1em 0;
+    align-items: center;
+    display: flex;
+    display: inline-block;
+}
+ul > li > a {
+   display: flex; 
+   flex-direction: row;
+   justify-content: center;
+   align-content: center;
+   gap: 0em;
+}
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    padding: 5px;
+
+    
+}
+ul {
+    text-align: center;
+    padding: auto;
+}
